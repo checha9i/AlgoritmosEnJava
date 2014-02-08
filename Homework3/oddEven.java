@@ -8,17 +8,45 @@ Dado un numero 'n' identifique si es par o impar
 
 */
 
-public class oddEven {   
+public class oddEven
+{
 
-   public static void main(String[] args) {
-      
-      	System.out.println(args[0]);
 
    		// si el numero es impar
-   			System.out.println("numero es impar");
-
+   			
    		// si el numero es par
-   			System.out.println("numero es par");
+   			
 
-   }
+public static void main(String args [])
+	
+
+{
+	
+
+
+int n1;
+	n1=Integer.parseInt(args[0].toString());
+
+
+	  if(n1<46){ if(n1%2==0){
+	    
+
+
+
+  System.out.println("par");}
+	   
+
+
+else{
+	      System.out.println("impar");}
+	
 }
+else{
+  System.out.println("el numero es mayor a 45");}
+	
+}
+
+
+}
+
+

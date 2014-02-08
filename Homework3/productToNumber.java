@@ -12,15 +12,58 @@ mostrar
 
 */
 
-public class productToNumber {   
-
-   public static void main(String[] args) {
-   		int resultado = 0;
-   		System.out.println(args[0]);
+public class productToNumber 
+{
+	
 
 
-   		System.out.println("el producto es: "+resultado);
-      
-   }
+	public static void main(String args [])
+	{
 
+
+	
+	double n1,n3=1;
+
+
+	System.out.print(args[0]+"!= ");
+
+
+	
+	n1 = Integer.parseInt(args[0].toString());
+
+
+if(n1<46){		
+	
+
+	for(int i=1;i<=n1;i++){
+	
+
+	
+
+
+			
+
+			n3=i*n3;
+			
+			if(i<n1){
+			
+			System.out.print(i+"x");}else{
+			System.out.print(i+"=");
+			System.out.print(n3);
+			}
+}}
+
+
+
+
+else{		
+
+
+
+
+			System.out.print("el numero es mayor a 45");
 }
+		
+	}
+}
+
